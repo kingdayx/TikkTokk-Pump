@@ -62,17 +62,6 @@ $( document ).ready(function() {
     updateContent(curPos, nextPos, lastItem);
 
   });
-  $('.cta1').click(function(){
-
-    var curActive = $('.side-nav').find('.is-active'),
-        curPos = $('.side-nav').children().index(curActive),
-        lastItem = $('.side-nav').children().length - 1,
-        nextPos = lastItem;
-
-    updateNavs(NextPos);
-    updateContent(curPos, nextPos, lastItem);
-
-  });
 
   // swipe support for touch devices
   var targetElement = document.getElementById('viewport'),

@@ -1,0 +1,20 @@
+{
+  "name": "global-master",
+  "version": "1.0.0",
+  "description": "### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "aws s3 cp --recursive ./build s3://tikktokk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingdayx/TikkTokk-Pump.git"
+  },
+  "author": "elisha day",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingdayx/TikkTokk-Pump/issues"
+  },
+  "homepage": "https://github.com/kingdayx/TikkTokk-Pump#readme"
+}
